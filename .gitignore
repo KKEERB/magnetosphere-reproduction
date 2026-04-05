@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OMC 状态文件
+.omc/
+
+# 输出文件
+data/output/*.xlsx
+data/output/*.docx
+data/output/*.json
+
+# 日志
+logs/*.log
+
+# 临时文件
+*.tmp
+temp_*.json
+temp_*.txt
+
+# 系统文件
+.DS_Store
+Thumbs.db
